@@ -14,6 +14,18 @@ export const staggerReveal = (node1, node2) => {
   });
 };
 
+export const staggerText = (node1, node2, node3) => {
+  gsap.from([node1, node2, node3], {
+    duration: 0.8,
+    y: 100,
+    delay: 0.1,
+    ease: "power3.inOut",
+    stagger: {
+      amount: 0.3
+    }
+  });
+};
+
 // CLOSE MENU
 export const staggerRevealClose = (node1, node2) => {
   gsap.to([node1, node2], {

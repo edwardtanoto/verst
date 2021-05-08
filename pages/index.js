@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Header from '../components/Header'
 import Hero from '../components/Hero'
 
 export default function Home() {
@@ -11,13 +10,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="App">
-        <Header />
-        <div className="container">
-          <div className="wrapper">
-            <div className="home">
-              <Hero />
-            </div>
+
+      <div className="container">
+        <div className="wrapper">
+          <div className="home">
+            <Hero />
           </div>
         </div>
       </div>

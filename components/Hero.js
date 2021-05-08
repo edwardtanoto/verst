@@ -3,7 +3,7 @@ const Hero = () => {
         <div className="container">
             <div className="wrapper">
                 <h5>
-                    <b>Verst, Inc.</b> is a creative, engineer driven, global agency
+                    <b>Verst, Inc.</b> is a creative, engineer driven, global studio
             working on advancing the software, advertising and design communities
             to new heights.
           </h5>

@@ -5,6 +5,7 @@ import { server } from '../config'
 
 
 import {
+  staggerText,
   staggerReveal,
   fadeInUp,
   handleHover,
@@ -15,10 +16,9 @@ import {
 } from "./Animations";
 
 const cities = [
-  { name: "Dallas", image: `${server}/images/dallas.png` },
-  { name: "Austin", image: `${server}/images/austin.webp` },
-  { name: "New York", image: `${server}/images/newyork.webp` },
-  { name: "Beijing", image: `${server}/images/beijing.webp` },
+  { name: "Indonesia", image: `${server}/images/jakarta.jpeg` },
+  { name: "China", image: `${server}/images/ningbo.jpeg` },
+  { name: "United States", image: `${server}/images/newyork.jpeg` },
 ];
 
 const Hamburger = ({ state }) => {
@@ -53,6 +53,7 @@ const Hamburger = ({ state }) => {
         height: "100%"
       });
       staggerReveal(reveal1, reveal2);
+      staggerText(line1.current, line2.current, line3.current);
       fadeInUp(info);
     }
   }, [state]);
@@ -72,41 +73,31 @@ const Hamburger = ({ state }) => {
               <nav>
                 <ul>
                   <li>
-                    <Link
-                      onMouseEnter={e => handleHover(e)}
-                      onMouseOut={e => handleHoverExit(e)}
-                      ref={el => (line1 = el)}
-                      href='/opportunities'>
-                      Labs
+                    <Link href={'/labs'}>
+                      <a onMouseEnter={e => handleHover(e)}
+                        onMouseOut={e => handleHoverExit(e)} ref={line1}>
+                        Labs
+                    </a>
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      onMouseEnter={e => handleHover(e)}
-                      onMouseOut={e => handleHoverExit(e)}
-                      ref={el => (line2 = el)}
-                      href='/solutions'>
-                      Blog
-                    </Link>
+                    <a href={'/opportunities'} onMouseEnter={e => handleHover(e)}
+                      onMouseOut={e => handleHoverExit(e)} ref={line2}>
+                      Expertise
+                    </a>
                   </li>
                   <li>
-                    <Link
-                      onMouseEnter={e => handleHover(e)}
-                      onMouseOut={e => handleHoverExit(e)}
-                      ref={el => (line3 = el)}
-                      href='/contact-us'>
-                      Contact us
-                    </Link>
+                    <a href={'/opportunities'} onMouseEnter={e => handleHover(e)}
+                      onMouseOut={e => handleHoverExit(e)} ref={line3}>
+                      Contact Us
+                    </a>
                   </li>
                 </ul>
               </nav>
               <div ref={el => (info = el)} className='info'>
-                <h3>Our Promise</h3>
+                <h3>Our Value</h3>
                 <p>
-                  The passage experienced a surge in popularity during the 1960s
-                  when Letraset used it on their dry-transfer sheets, and again
-                  during the 90s as desktop publishers bundled the text with
-                  their software.
+                  As technology has shaped the culture of our society, we dedicate ourselves to start innovating the future of our culture. We bring high-quality values through strategised design and strong technology.
                 </p>
               </div>
               <div className='locations'>
@@ -125,7 +116,7 @@ const Hamburger = ({ state }) => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
