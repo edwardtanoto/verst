@@ -17,7 +17,7 @@ import {
 
 const cities = [
   { name: "Indonesia", image: `${server}/images/jakarta.jpeg` },
-  { name: "China", image: `${server}/images/ningbo.jpeg` },
+  { name: "China", image: `${server}/images/shanghai.webp` },
   { name: "United States", image: `${server}/images/newyork.jpeg` },
 ];
 
