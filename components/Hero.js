@@ -2,11 +2,10 @@ const Hero = () => {
     return (
         <div className="container">
             <div className="wrapper">
-                <h5>
-                    <b>Verst, Inc.</b> is a creative, engineer driven, global studio
-            working on advancing the software, advertising and design communities
-            to new heights.
-          </h5>
+                <h1>
+                    <b>Verst, Inc.</b> is a first-class studio that provides creative, engineer driven, global studio
+            working on advancing technology.
+          </h1>
             </div>
         </div>
     );
