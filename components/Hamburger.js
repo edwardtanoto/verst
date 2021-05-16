@@ -87,7 +87,7 @@ const Hamburger = ({ state }) => {
                     </a>
                   </li>
                   <li>
-                    <a href={'/opportunities'} onMouseEnter={e => handleHover(e)}
+                    <a href={'https://form.typeform.com/to/mSXQsyBp'} target="_blank" onMouseEnter={e => handleHover(e)}
                       onMouseOut={e => handleHoverExit(e)} ref={line3}>
                       Contact Us
                     </a>
