@@ -11,8 +11,10 @@ export default function labs() {
             </Head>
 
             <div className="App">
+                <div className="wrapper">
+                    <h1>Test</h1>
 
-                Labs
+                </div>
             </div>
         </>
     )

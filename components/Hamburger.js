@@ -101,7 +101,6 @@ const Hamburger = ({ state }) => {
                 </p>
               </div>
               <div className='locations'>
-                Locations:
                 {/* Returning the list of cities */}
                 {cities.map(el => (
                   <span
