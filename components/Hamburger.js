@@ -83,7 +83,7 @@ const Hamburger = ({ state }) => {
                   <li>
                     <a href={'https://verst-io.medium.com'} onMouseEnter={e => handleHover(e)}
                       onMouseOut={e => handleHoverExit(e)} ref={line2}>
-                      Expertise
+                      Publications
                     </a>
                   </li>
                   <li>
