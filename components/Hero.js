@@ -12,7 +12,7 @@ const Hero = () => {
                 <h1>
                     <b>the verst class <span className="gradient-text">technology</span> <span className="gradient-text1">& design</span> <br /></b>
                 </h1>
-                <p>WE'RE AN INDEPENDENT STUDIO BUILDING IMPACTFUL PRODUCTS.</p>
+                <p>INDEPENDENT STUDIO, BUILDING IMPACTFUL PRODUCTS.</p>
                 <br />
                 <div className="socials">
                     {socmeds.map(el => (
