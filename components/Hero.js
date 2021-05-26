@@ -3,7 +3,7 @@ const Hero = () => {
     const socmeds = [
         { name: "Medium", image: `${server}/socmed/Medium.svg`, link: "https://verst-io.medium.com" },
         { name: "Instagram", image: `${server}/socmed/Instagram.svg`, link: "https://instagram.com/verst.inc" },
-        { name: "Linkedin", image: `${server}/socmed/Linkedin.svg`, link: "https://linkedin.com/company/verst-inc" },
+        { name: "Linkedin", image: `${server}/socmed/LinkedIn.svg`, link: "https://linkedin.com/company/verst-inc" },
         { name: "Dribbble", image: `${server}/socmed/Dribbble.svg`, link: "https://dribbble.com/verst" },
     ];
     return (
