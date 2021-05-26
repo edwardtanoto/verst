@@ -24,9 +24,9 @@ const Hero = () => {
                     ))}
                 </div>
                 <br />
-
+                <p>team@verst.io | +1(760)338-2739</p>
             </div>
-            <p>team@verst.io | +1(760)338-2739</p>
+
         </div>
     );
 }
