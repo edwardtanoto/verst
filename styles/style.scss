@@ -124,7 +124,12 @@ header {
     }
     .menu-layer {
       position: relative;
-
+      background: linear-gradient(
+        95.08deg,
+        #ff66df 2.49%,
+        #795df7 46.88%,
+        #a996ff 97.19%
+      );
       height: 100%;
       overflow: hidden;
       .menu-city-background {
@@ -180,7 +185,7 @@ header {
                   color: #fff;
                   text-decoration: none;
                   &:hover {
-                    color: $black;
+                    color: #a996ff;
                   }
                 }
               }
@@ -210,7 +215,8 @@ header {
           span {
             cursor: pointer;
             font-weight: 400;
-            padding: 24px;
+            margin: 20px;
+            padding: 12px;
             transition: 0.3s ease-in-out;
             &:hover {
               color: #fff;
