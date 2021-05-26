@@ -112,7 +112,7 @@ header {
     height: 100%;
     width: 100%;
     .menu-secondary-background-color {
-      background: $black;
+      background: #f639d1;
       top: 0;
       left: 0;
       right: 0;
@@ -124,12 +124,7 @@ header {
     }
     .menu-layer {
       position: relative;
-      background: linear-gradient(
-        95.08deg,
-        #ff66df 2.49%,
-        #795df7 46.88%,
-        #a996ff 97.19%
-      );
+      background: #795df7;
       height: 100%;
       overflow: hidden;
       .menu-city-background {
