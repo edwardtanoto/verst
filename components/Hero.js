@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="container">
             <div className="wrapper">
                 <h1>
-                    <b>The first class <span className="gradient-text">technology</span> <span className="gradient-text1">& design</span> <br /></b>
+                    <b>First class <span className="gradient-text">technology</span> <span className="gradient-text1">& design</span> <br /></b>
                 </h1>
                 <p>INDEPENDENT STUDIO, BUILDING IMPACTFUL PRODUCTS.</p>
                 <br />
