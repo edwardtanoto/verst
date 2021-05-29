@@ -3,7 +3,6 @@ import { withRouter, useRouter } from 'next/router'
 import Link from 'next/link'
 import Hamburger from "./Hamburger";
 
-
 const Header = ({ history }) => {
   // State of our Menu
   const [state, setState] = useState({
@@ -11,6 +10,7 @@ const Header = ({ history }) => {
     clicked: null,
     menuName: "Menu"
   });
+
   // State of our button
   const [disabled, setDisabled] = useState(false);
   const router = useRouter();
