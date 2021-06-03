@@ -11,8 +11,17 @@ export default function labs() {
             </Head>
 
             <div className="App">
-                <div className="wrapper">
-                    <h1>Test</h1>
+                <div className="container">
+                    <div className="wrapper">
+                        <div className="home">
+                            <h1>
+                                <b className="gradient-text">Laboratory</b>
+
+                            </h1>
+                        </div>
+
+
+                    </div>
 
                 </div>
             </div>
