@@ -21,7 +21,7 @@ const Hero = () => {
                             key={el.name}>
                             <a href={el.link}><img src={el.image} /></a>
                         </span>
-                    ))}
+                    ))}q
                 </div>
                 <br />
                 <p>team@verst.io (MAIL) | +1(760)338-2739 (SMS)</p>
