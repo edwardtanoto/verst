@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="container">
             <div className="wrapper">
                 <h1>
-                    <b>First class <span className="gradient-text">technology</span> <span className="gradient-text1">& design</span> <br /></b>
+                    Verst is a contemporary tech studio designed to do big things.
                 </h1>
                 <p>INDEPENDENT STUDIO, BUILDING IMPACTFUL PRODUCTS.</p>
                 <br />
@@ -21,7 +21,7 @@ const Hero = () => {
                             key={el.name}>
                             <a href={el.link}><img src={el.image} /></a>
                         </span>
-                    ))}q
+                    ))}
                 </div>
                 <br />
                 <p>team@verst.io (MAIL) | +1(760)338-2739 (SMS)</p>

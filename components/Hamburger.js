@@ -73,10 +73,10 @@ const Hamburger = ({ state }) => {
               <nav>
                 <ul>
                   <li>
-                    <Link href={'/labs'}>
+                    <Link href={'https://grammable.ai'}>
                       <a onMouseEnter={e => handleHover(e)}
                         onMouseOut={e => handleHoverExit(e)} ref={line1}>
-                        Labs
+                        Grammable
                     </a>
                     </Link>
                   </li>
