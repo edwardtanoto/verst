@@ -3,23 +3,22 @@ $red: #e20001;
 $black: #191919;
 
 @font-face {
-  font-family: 'gilroylight';
-  src: url('/gilroylight/gilroy-light-webfont.ttf') format('truetype');
+  font-family: 'Epilogue';
+  src: url('/Epilogue/static/Epilogue-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'gilroyextrabold';
-  src: url('/gilroyextrabold/Web Fonts/gilroy_extrabold_macroman/gilroy-extrabold-webfont.woff')
-    format('truetype');
+  font-family: 'EpilogueBold';
+  src: url('/Epilogue/static/Epilogue-Bold.ttf') format('truetype');
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'gilroylight', 'SF Sans Pro', sans-serif;
+  font-family: 'Epilogue', 'SF Sans Pro', sans-serif;
 }
 
 body:after {
@@ -56,17 +55,17 @@ body:after {
         text-align: center;
       }
       h1 {
-        font-family:  'SF Sans Pro', -apple-system;
+        font-family: 'EpilogueBold', 'SF Sans Pro', -apple-system;
         margin-top: 10%;
         font-size: 4rem;
         text-align: center;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 10px;
+        padding-left: 10px;
       }
       @media screen and (max-width: 720px) {
         //do Smth
         h1 {
-          font-size: 3rem;
+          font-size: 2.5rem;
           margin-top: 10%;
           padding-right: 10px;
           padding-left: 10px;
@@ -85,7 +84,7 @@ body:after {
 }
 
 header {
-  font-family: 'gilroyextrabold', 'SF Sans Pro', -apple-system;
+  font-family: 'EpilogueBold', 'SF Sans Pro', -apple-system;
   height: 100px;
   .inner-header {
     position: relative;
@@ -179,7 +178,7 @@ header {
                 width: 700px;
 
                 @media screen and (max-width: 720px) {
-                  font-size: 3rem;
+                  font-size: 2rem;
                   height: 70px;
                 }
 

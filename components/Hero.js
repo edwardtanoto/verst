@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="container">
             <div className="wrapper">
                 <h1>
-                    Verst, Inc. is a contemporary tech studio designed to build new things.
+                    verst, inc. is a contemporary tech studio designed to build new things.
                 </h1>
                 <br />
                 <div className="socials">
