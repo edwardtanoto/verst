@@ -27,7 +27,7 @@ export default function ProjectX() {
                 "As a preapp civilization, your love's value is defined by scarcity. You are highly trained to seek it, and you have no idea how to maintain it. Had you bothered to master love, you would've learned by now, it is as abundant as water."
                 </blockquote>
                 <br/>
-                <p>In the video by <a href='https://youtu.be/X31izD4du38' target='_blank' rel='noreferrer'>Answer In Progress</a>, the team made an experiment regarding choices, and how it affects you. If you have taken your time to <a href='https://www.online-toolz.com/tools/text-encryption-decryption.php' target='_blank' rel='noreferrer'>decrypt</a> the [<span style={{color:'#FF8989'}}>word</span>], please open [<span style={{color:'#FF8989'}}>word</span>].verst.io (Example: example.verst.io, replace example with the [<span style={{color:'#FF8989'}}>word</span>]). Something is waiting you there.</p>
+                <p>In the video by <a href='https://youtu.be/X31izD4du38' target='_blank' rel='noreferrer'>Answer In Progress</a>, the team made an experiment regarding choices, and how it affects you. It doesn't even have to be a life partner, just having a meaningful friendship is underrated. If you have taken your time to <a href='https://www.online-toolz.com/tools/text-encryption-decryption.php' target='_blank' rel='noreferrer'>decrypt</a> the [<span style={{color:'#FF8989'}}>word</span>], please open [<span style={{color:'#FF8989'}}>word</span>].verst.io (Example: example.verst.io, replace example with the [<span style={{color:'#FF8989'}}>word</span>]). Something is waiting you there.</p>
                 <br/>
                 <p>team@verst.io</p>
             </div>
