@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Hero from '../components/Hero'
 
-export default function ProjectPhilia() {
+export default function ProjectX() {
   return (
     <>
       <Head>
-        <title>Project Untitled - Making Dating apps more human.</title>
+        <title>Project X - Making Dating apps more human.</title>
         <meta name="description" content="Making dating apps more human." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
