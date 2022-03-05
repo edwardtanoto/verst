@@ -81,15 +81,15 @@ const Hamburger = ({ state }) => {
                     </Link>
                   </li>
                   <li>
+                    <Link href={'./project-untitled'} onMouseEnter={e => handleHover(e)}
+                      onMouseOut={e => handleHoverExit(e)} ref={line3}>
+                      Project X
+                    </Link>
+                  </li>
+                  <li>
                     <a href={'https://verst-io.medium.com'} onMouseEnter={e => handleHover(e)}
                       onMouseOut={e => handleHoverExit(e)} ref={line2}>
                       Publications
-                    </a>
-                  </li>
-                  <li>
-                    <a href={'https://form.typeform.com/to/mSXQsyBp'} target="_blank" onMouseEnter={e => handleHover(e)}
-                      onMouseOut={e => handleHoverExit(e)} ref={line3}>
-                      Contact Us
                     </a>
                   </li>
                 </ul>

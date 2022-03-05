@@ -20,7 +20,9 @@ body {
   margin: 0;
   font-family: 'Epilogue', 'SF Sans Pro', sans-serif;
 }
-
+.untitled{
+  line-height: 1.6;
+}
 body:after {
   display: none;
   content: url('https://www.verst.io/images/jakarta.jpeg')
@@ -172,10 +174,10 @@ header {
                 font-size: 6.5rem;
                 font-weight: 700;
                 cursor: pointer;
-                height: 135px;
+                height: 150px;
                 overflow: hidden;
                 position: relative;
-                width: 700px;
+                width: 750px;
 
                 @media screen and (max-width: 720px) {
                   font-size: 2rem;
