@@ -8,3 +8,9 @@ I'm deeply inspired by Narative, an independent tech studio building their own p
 
 **Ongoing Projects**
 - [Grammable [wip]](https://grammable.ai)
+
+**Brand**
+- [Who are we](https://verst.io/brand.pdf)
+
+**Arsenal**
+- Our [arsenal](https://verst.io/arsenal.pdf) to keep us be self-sufficient 
